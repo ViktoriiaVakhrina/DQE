@@ -1,0 +1,1 @@
+grep 'Marketing' sample_cut.txt | cut -d ' ' -f1,2 > marketing_$(date -v-1d +%Y-%m-%d).txt

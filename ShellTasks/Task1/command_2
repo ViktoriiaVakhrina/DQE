@@ -1,0 +1,1 @@
+grep -v -f marketing_$(date -v-1d +%Y-%m-%d).txt  sample_cut.txt | awk 'NR>1 {print $1}' > namesakes_preparation
