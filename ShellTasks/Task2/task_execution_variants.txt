@@ -1,0 +1,3 @@
+task2_script - realization using loops only; input years as range: 'start_year end_year'
+
+task2_script_awk - realization using loop and awk; input years as list 'year1 year2 year3...'
